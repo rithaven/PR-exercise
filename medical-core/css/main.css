@@ -25,7 +25,7 @@ body{
     align-items: center;
     font-size: 30px;
 }
-.navbar__items--links{
+.navbar__links--item{
     display: flex;
     list-style: none;
     font-size: 30px;
@@ -33,7 +33,7 @@ body{
 
 
 
-.navbar__items-links--item--navigation {
+.navbar__links--navigation {
     text-decoration: none;
     color: rgb(78, 78, 78);
     font-size: 20px;
@@ -56,7 +56,7 @@ color: green;
     color: white;
     background: #1BA0AB;
 }
-.button__primary__outlined {
+.button__primary--outlined {
     border: 1px solid #1BA0AB;
     color: #1BA0AB;
 }
@@ -160,23 +160,23 @@ color: green;
     border-radius: 10px;
     overflow: hidden; 
 }
-.team__items--item--img {
+.team__items--img {
     height: 200px;
     object-fit: cover;
     width: 100%;
 }
 
-.team__items--item--body{
+.team__items--body{
     text-align: center;
 }
 
-.team__items--item--body--subtitle {
+.team__items--subtitle {
     font-size: 14px;
     font-weight: 600;
     text-transform: capitalize;
     color: rgb(77, 77, 77);
 }
-.team__items--item--body--social{
+.team__items--social{
     margin: 20px;
 }
 
