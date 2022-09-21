@@ -7,8 +7,10 @@ body{
 
 .navbar{
     background: #FFF5F0;
-    max-width: 1000vh;
+    max-width: 100%;
     font-size: 30px;
+    
+    
    
 }
 
@@ -18,17 +20,23 @@ body{
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    
     font-size: 30px;
 }
 .navbar__items{
     display: flex;
     align-items: center;
     font-size: 30px;
+    
 }
 .navbar__links--item{
-    display: flex;
+    display: inline-block;
     list-style: none;
     font-size: 30px;
+    
+    
+    
 }
 
 
@@ -40,6 +48,9 @@ body{
     font-weight: 600;
     text-transform: capitalize;
     padding: 0px 10px;
+    display: flex;
+    
+    
 }
 
 
