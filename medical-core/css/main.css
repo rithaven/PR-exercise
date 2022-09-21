@@ -98,27 +98,27 @@ color: green;
     margin: 20px 0px;
 }
 
-.Experts{
+.experts{
     max-width: 1024px;
         margin: 50px auto;
         display: flex;
         align-items: center;
 }
-.Experts__left{
+.experts__left{
     flex-grow: 1;
     flex-basis: 0;
 }
-.Experts__right {
+.experts__right {
     flex-grow: 1;
     flex-basis: 0;
 }
-.Experts__left-img{
+.experts__left-img{
     height: 400px;
 }
-.Experts__right-title {
+.experts__right-title {
  
 }
-.Experts__right-subtitle{
+.experts__right-subtitle{
     font-size: 14px;
     line-height: 25px;
     font-weight: 600;
